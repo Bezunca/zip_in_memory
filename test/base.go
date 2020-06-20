@@ -5,6 +5,6 @@ import (
 	"testing"
 )
 
-func TestPGPEncrypt(t *testing.T) {
+func TestBase(t *testing.T) {
 	fmt.Print("Hello world")
 }
