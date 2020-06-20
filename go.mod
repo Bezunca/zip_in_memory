@@ -1,4 +1,4 @@
-module zip_in_memory
+module ZipInMemory
 
 go 1.14
 
