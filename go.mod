@@ -1,4 +1,4 @@
-module black_hole
+module zip_in_memory
 
 go 1.14
 
