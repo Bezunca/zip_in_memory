@@ -1,4 +1,4 @@
-package pkg
+package zip
 
 import (
 	"archive/zip"
@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 )
 
-func ExtractZipInMemory(data []byte) ([]byte, error){
+func ExtractInMemory(data []byte) ([]byte, error){
 	readerAt := bytes.NewReader(data)
 	r, err := zip.NewReader(readerAt, int64(len(data)))
 	if err != nil {
