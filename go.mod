@@ -1,4 +1,4 @@
-module github.com/Bezunca/ZipInMemory
+module github.com/Bezunca/zip_in_memory
 
 go 1.14
 
